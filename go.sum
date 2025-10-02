@@ -1,7 +1,5 @@
 github.com/brutella/dnssd v1.2.14 h1:qLpTnRTm5peo2jA30hqMIbCuWn8x3sFg3e9o9ODOobw=
 github.com/brutella/dnssd v1.2.14/go.mod h1:tG4GE8orv6+irE5rdsNgb6MJSxm6cyMUKdC5jmD22gk=
-github.com/jattkaim/hap v0.0.35 h1:9J6jWnrlnZGJIdskYdkRt8EGfEoIe2sMqc6qBNQTnAM=
-github.com/jattkaim/hap v0.0.35/go.mod h1:vWJ+URAmB9aEXZ6bWeqO9iHwz+pcb89eR1pNYK2ZAUM=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
