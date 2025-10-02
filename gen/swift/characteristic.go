@@ -3,12 +3,13 @@ package swift
 import (
 	"bytes"
 	"fmt"
-	"github.com/brutella/hap/gen"
 	"log"
 	"reflect"
 	"sort"
 	"strings"
 	"text/template"
+
+	"github.com/jattkaim/hap/gen"
 )
 
 // ConstDecl is a constant declaration

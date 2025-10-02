@@ -1,3 +1,4 @@
+//go:build ignore
 // +build ignore
 
 // Imports HomeKit metadata from HomeKitDaemon.framework
@@ -6,17 +7,18 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/brutella/hap/gen"
-	_ "github.com/brutella/hap/gen/golang"
-	"github.com/brutella/hap/gen/meta"
 	"io/ioutil"
 	"log"
 	"os"
 	_ "os/exec"
 	"path/filepath"
+
+	"github.com/jattkaim/hap/gen"
+	_ "github.com/jattkaim/hap/gen/golang"
+	"github.com/jattkaim/hap/gen/meta"
 )
 
-var LibPath = os.ExpandEnv("$GOPATH/src/github.com/brutella/hap")
+var LibPath = os.ExpandEnv("$GOPATH/src/github.com/jattkaim/hap")
 var GenPath = filepath.Join(LibPath, "gen")
 var SvcPkgPath = filepath.Join(LibPath, "service")
 var AccPkgPath = filepath.Join(LibPath, "accessory")

@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/brutella/hap/characteristic"
+	"github.com/jattkaim/hap/characteristic"
 )
 
 type Humidifier struct {

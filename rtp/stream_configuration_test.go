@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/brutella/hap/characteristic"
-	"github.com/brutella/hap/tlv8"
+	"github.com/jattkaim/hap/characteristic"
+	"github.com/jattkaim/hap/tlv8"
 )
 
 func TestSelectedStreamConfiguration(t *testing.T) {

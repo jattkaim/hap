@@ -2,9 +2,10 @@ package markdown
 
 import (
 	"bytes"
-	"github.com/brutella/hap/gen"
-	"github.com/brutella/hap/gen/golang"
 	"text/template"
+
+	"github.com/jattkaim/hap/gen"
+	"github.com/jattkaim/hap/gen/golang"
 )
 
 const ServicesTemplate = `| Service | Characteristics | ID

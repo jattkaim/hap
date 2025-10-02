@@ -5,11 +5,11 @@ import (
 	"time"
 
 	"github.com/brutella/dnssd"
-	"github.com/brutella/hap/accessory"
-	"github.com/brutella/hap/characteristic"
-	"github.com/brutella/hap/log"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
+	"github.com/jattkaim/hap/accessory"
+	"github.com/jattkaim/hap/characteristic"
+	"github.com/jattkaim/hap/log"
 	"github.com/xiam/to"
 	godiacritics "gopkg.in/Regis24GmbH/go-diacritics.v2"
 

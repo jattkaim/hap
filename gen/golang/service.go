@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"text/template"
 
-	"github.com/brutella/hap/gen"
+	"github.com/jattkaim/hap/gen"
 )
 
 // ServiceStructTemplate is template for a service struct.
@@ -13,7 +13,7 @@ const ServiceStructTemplate = `// THIS FILE IS AUTO-GENERATED
 package service
 
 import (
-	"github.com/brutella/hap/characteristic"
+	"github.com/jattkaim/hap/characteristic"
 )
 
 const {{.TypeName}} = "{{.TypeValue}}"
@@ -31,7 +31,7 @@ func New{{.StructName}}() *{{.StructName}} {
     s.{{.StructName}} = characteristic.New{{.StructName}}()
     s.AddC(s.{{.StructName}}.C)
     {{end}}
-    
+
 	return &s
 }
 `
@@ -41,7 +41,7 @@ type Service struct {
 	Name          string // Name of the service (e.g. Light bulb)
 	StructName    string // Name of the struct (e.g. Lightbulb)
 	FileName      string // Name of the file (e.g. lightbulb.go)
-	LocalFilePath string // Path to the file (e.g. ~/User/Go/src/github.com/brutella/hap/service/lightbulb.go)
+	LocalFilePath string // Path to the file (e.g. ~/User/Go/src/github.com/jattkaim/hap/service/lightbulb.go)
 	RelFilePath   string // Relative path to the file from the project root (e.g. service/lightbulb.go)
 	TypeName      string // Name of type e.g. TypeLightbulb
 	TypeValue     string // Value of the type e.g. 00000008-0000-1000-8000-0026BB765291

@@ -1,7 +1,7 @@
 package characteristic
 
 import (
-	"github.com/brutella/hap/log"
+	"github.com/jattkaim/hap/log"
 
 	"fmt"
 	"net/http"
